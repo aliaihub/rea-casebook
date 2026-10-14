@@ -2,7 +2,7 @@
 
 **What have people actually understood, reconstructed, and built with REA?**
 
-An English-language collection of documented software investigations and reconstructions using [REA — Reverse Engineer Anything](https://github.com/morluto/rea). Explore the target, the workflow, the result, and the evidence behind it.
+A collection of documented software investigations and reconstructions using [REA — Reverse Engineer Anything](https://github.com/morluto/rea). Explore the target, the workflow, the result, and the evidence behind it.
 
 **11 cases · 4 categories · Last reviewed October 14, 2026**
 
@@ -70,7 +70,7 @@ Found something worth documenting? [Submit a case](https://github.com/aliaihub/r
 ## Sources and acknowledgments
 
 - [REA](https://github.com/morluto/rea) and its [official case studies](https://rea.tools/showcase/) provide foundational examples.
-- [Awesome REA Cases](https://github.com/songshikang0111/awesome-REA-cases) helped discover community cases. It also offers an [English index](https://github.com/songshikang0111/awesome-REA-cases/blob/main/INDEX.en.md); many detailed case pages are Chinese. Our summaries are independently written in English, with discovery attribution on the relevant pages.
+- [Awesome REA Cases](https://github.com/songshikang0111/awesome-REA-cases) helped discover community cases. Our summaries are independently written, with discovery attribution on the relevant pages.
 - [REA Gems](https://github.com/sqwu/rea-gems) is another community discovery resource.
 
 This is an unofficial community project, unaffiliated with the REA team or the software vendors named here. Original research, code, and demonstrations belong to their respective authors.
