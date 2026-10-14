@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">REA Casebook — What did they actually reverse engineer?</title>
+<desc id="desc">A collection of REA investigations and reconstructions across applications, games, algorithms, and hardware, with source links and evidence.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#20313d" stroke-width="1"/></pattern></defs>
+<rect width="1280" height="640" fill="#0c131b"/><rect width="1280" height="640" fill="url(#grid)" opacity=".45"/>
+<rect x="56" y="51" width="44" height="44" rx="12" fill="#b7f56b"/>
+<path d="m73 64-7 9 7 9m11-18 7 9-7 9" fill="none" stroke="#0c131b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="DejaVu Sans,Arial,sans-serif"><text x="116" y="81" font-size="24" font-weight="700" fill="#f0f4f7">REA CASEBOOK</text>
+<text x="58" y="174" font-size="14" letter-spacing="3" fill="#b7f56b">REVERSE ENGINEERING WITH AI AGENTS</text>
+<text x="54" y="248" font-size="59" font-weight="700" fill="#f0f4f7">What did they actually</text>
+<text x="54" y="321" font-size="59" font-weight="700" fill="#b7f56b">reverse engineer?</text>
+<text x="58" y="373" font-size="22" fill="#aab9c6">Explore the target. Follow the evidence. See the result.</text>
+<g font-size="17"><rect x="58" y="423" width="268" height="77" rx="12" fill="#16232e" stroke="#30414d"/><text x="79" y="452" font-size="12" letter-spacing="2" fill="#aab9c6">APPLICATIONS</text><text x="79" y="480" fill="#f0f4f7">Clipboard bridges + editors</text>
+<rect x="342" y="423" width="268" height="77" rx="12" fill="#16232e" stroke="#30414d"/><text x="363" y="452" font-size="12" letter-spacing="2" fill="#aab9c6">GAMES</text><text x="363" y="480" fill="#f0f4f7">Recovered native functions</text>
+<rect x="626" y="423" width="268" height="77" rx="12" fill="#16232e" stroke="#30414d"/><text x="647" y="452" font-size="12" letter-spacing="2" fill="#aab9c6">ALGORITHMS</text><text x="647" y="480" fill="#f0f4f7">Code generation + checkers</text>
+<rect x="910" y="423" width="312" height="77" rx="12" fill="#16232e" stroke="#30414d"/><text x="931" y="452" font-size="12" letter-spacing="2" fill="#aab9c6">HARDWARE</text><text x="931" y="480" fill="#f0f4f7">Device protocols + controllers</text></g>
+<path d="M58 548H1222" stroke="#30414d"/><text x="58" y="591" font-size="17" fill="#aab9c6">github.com/aliaihub/rea-casebook</text><text x="1222" y="591" text-anchor="end" font-size="14" fill="#b7f56b">CASES · SOURCE LINKS · EVIDENCE</text></g></svg>

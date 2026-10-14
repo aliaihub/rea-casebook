@@ -1,8 +1,17 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="REA Casebook — What did they actually reverse engineer?" width="100%" />
+</p>
+
 # REA Casebook
 
-**What have people actually understood, reconstructed, and built with REA?**
+**Real-world reverse engineering with AI agents. Cases, code, demos, and evidence.**
 
-A collection of documented software investigations and reconstructions using [REA — Reverse Engineer Anything](https://github.com/morluto/rea). Explore the target, the workflow, the result, and the evidence behind it.
+From Notion’s clipboard bridge to recovered game logic, independent video editors, and device protocols: explore what people have investigated and built using [REA — Reverse Engineer Anything](https://github.com/morluto/rea).
+
+[![REA](https://img.shields.io/badge/built_with-REA-b7f56b?style=flat-square&labelColor=16232e&color=b7f56b)](https://github.com/morluto/rea)
+[![Cases](https://img.shields.io/badge/cases-11-b7f56b?style=flat-square&labelColor=16232e)](#applications)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-b7f56b?style=flat-square&labelColor=16232e)](CONTRIBUTING.md)
+[![License MIT](https://img.shields.io/badge/license-MIT-b7f56b?style=flat-square&labelColor=16232e)](LICENSE)
 
 **11 cases · 4 categories · Last reviewed October 14, 2026**
 
@@ -14,17 +23,6 @@ A collection of documented software investigations and reconstructions using [RE
 - **Study a tightly checked reconstruction:** [DX-Ball](cases/dx-ball.md), recovering a particular audio calculation.
 - **Understand an everyday feature:** [Notion clipboard](cases/notion-clipboard.md), following an Electron API across process boundaries.
 - **Explore a practical developer tool:** [zee-rp](cases/zee-rp.md), scoped reading and editing of Axure documents.
-
-## Reading the evidence
-
-| Label | Meaning |
-| --- | --- |
-| Official documented case | Published by REA with an investigation or worked example; validation belongs to the source |
-| Public project | Public implementation and documentation; availability does not establish correctness or parity |
-| Author report | A reported result, sometimes discovered through a secondary collection; source-access limitations are stated |
-| Independently reproduced | Reserved for a documented reproduction by a casebook reviewer; no launch entry has this status |
-
-Stage describes the kind of result, not its verification level. **Working implementation** means the source describes working software, not that we have run or endorsed it. A recovered function, a feature investigation, and a complete application are different scopes. Case pages state which applies.
 
 ## Applications
 
@@ -57,6 +55,17 @@ Stage describes the kind of result, not its verification level. **Working implem
 | --- | --- | --- | --- |
 | [Smart-home Bluetooth: a reported Mac controller](cases/smart-home-bluetooth.md) | Control a personally owned smart toilet from a desktop menu-bar application. | Author report | Working implementation |
 
+## Reading the evidence
+
+| Label | Meaning |
+| --- | --- |
+| Official documented case | Published by REA with an investigation or worked example; validation belongs to the source |
+| Public project | Public implementation and documentation; availability does not establish correctness or parity |
+| Author report | A reported result, sometimes discovered through a secondary collection; source-access limitations are stated |
+| Independently reproduced | Reserved for a documented reproduction by a casebook reviewer; no launch entry has this status |
+
+Stage describes the kind of result, not its verification level. **Working implementation** means the source describes working software, not that we have run or endorsed it. A recovered function, a feature investigation, and a complete application are different scopes. Case pages state which applies.
+
 ## Scope
 
 This collection covers concrete REA-assisted investigations and implementations. We prioritize public artifacts and precise results, and retain selected author reports with explicit limits. Tool installations, generic AI clones without REA attribution, and unrealized ideas do not count as cases.
@@ -64,6 +73,8 @@ This collection covers concrete REA-assisted investigations and implementations.
 The launch collection is a documentation review. We have not run the listed software or independently reproduced its test claims. Links and project capabilities can change after the review date.
 
 ## Contribute
+
+**Built something with REA? [Add your case](https://github.com/aliaihub/rea-casebook/issues/new?template=case.md).** Include a target, a result, and the source or evidence that supports it.
 
 Found something worth documenting? [Submit a case](https://github.com/aliaihub/rea-casebook/issues/new?template=case.md) or send a pull request using the [contribution guide](CONTRIBUTING.md) and [case template](cases/TEMPLATE.md). Corrections and stronger evidence are especially welcome.
 
