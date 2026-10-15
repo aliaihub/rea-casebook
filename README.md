@@ -29,9 +29,9 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 | Case | What it covers | Evidence | Stage |
 | --- | --- | --- | --- |
 | [Notion: tracing the Electron clipboard bridge](cases/notion-clipboard.md) | Trace how the packaged desktop application copies text, HTML, and rich block information. | Official documented case | Analysis |
-| [Ledger Reborn: an independent desktop accounting implementation](cases/ledger-reborn.md) | Study QuickBooks Desktop for Mac workflows and implement an independent local accounting application. | Public project | Working implementation |
-| [ReaCut: a video editor informed by CapCut research](cases/reacut.md) | Use REA-assisted local behavior and format research to build an independent video editor. | Public project | Working implementation |
-| [zee-rp: making Axure prototype files scriptable](cases/zee-rp.md) | Read and edit supported Axure RP 11 documents through scripts and an MCP interface. | Public project | Working implementation |
+| [Ledger Reborn: an independent desktop accounting implementation](cases/ledger-reborn.md) [![GitHub stars for lxistired/ledger-reborn](https://img.shields.io/github/stars/lxistired/ledger-reborn?style=flat-square&label=stars)](https://github.com/lxistired/ledger-reborn) | Study QuickBooks Desktop for Mac workflows and implement an independent local accounting application. | Public project | Working implementation |
+| [ReaCut: a video editor informed by CapCut research](cases/reacut.md) [![GitHub stars for Xiangyu-CAS/rea-capcut](https://img.shields.io/github/stars/Xiangyu-CAS/rea-capcut?style=flat-square&label=stars)](https://github.com/Xiangyu-CAS/rea-capcut) | Use REA-assisted local behavior and format research to build an independent video editor. | Public project | Working implementation |
+| [zee-rp: making Axure prototype files scriptable](cases/zee-rp.md) [![GitHub stars for LilZeeCN/zee-rp](https://img.shields.io/github/stars/LilZeeCN/zee-rp?style=flat-square&label=stars)](https://github.com/LilZeeCN/zee-rp) | Read and edit supported Axure RP 11 documents through scripts and an MCP interface. | Public project | Working implementation |
 | [Screen Studio: a reported recording-tool rebuild](cases/screen-studio.md) | Investigate a screen-recording application and implement a version from the recovered behavior. | Author report | Partial reconstruction |
 | [MarkText: a reported HTML export reconstruction](cases/marktext-export.md) | Trace and reconstruct HTML export behavior from a built MarkText application. | Author report | In progress |
 
@@ -39,8 +39,8 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 
 | Case | What it covers | Evidence | Stage |
 | --- | --- | --- | --- |
-| [DX-Ball: recovering positional audio](cases/dx-ball.md) | Recover the position-to-pan calculation in DX-Ball 1.07. | Official documented case | Partial reconstruction |
-| [Touhou TH04: reconstructing bullet-ring angles](cases/th04.md) | Understand the fixed and aimed angle calculation in the PC-98 DOS game Lotus Land Story. | Official documented case | Partial reconstruction |
+| [DX-Ball: recovering positional audio](cases/dx-ball.md) [![GitHub stars for N0zoM1z0/dx-ball](https://img.shields.io/github/stars/N0zoM1z0/dx-ball?style=flat-square&label=stars)](https://github.com/N0zoM1z0/dx-ball) | Recover the position-to-pan calculation in DX-Ball 1.07. | Official documented case | Partial reconstruction |
+| [Touhou TH04: reconstructing bullet-ring angles](cases/th04.md) [![GitHub stars for N0zoM1z0/th04](https://img.shields.io/github/stars/N0zoM1z0/th04?style=flat-square&label=stars)](https://github.com/N0zoM1z0/th04) | Understand the fixed and aimed angle calculation in the PC-98 DOS game Lotus Land Story. | Official documented case | Partial reconstruction |
 
 ## Algorithms
 
@@ -56,6 +56,8 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 | [Smart-home Bluetooth: a reported Mac controller](cases/smart-home-bluetooth.md) | Control a personally owned smart toilet from a desktop menu-bar application. | Author report | Working implementation |
 
 ## Reading the evidence
+
+Star badges show interest in the linked reconstruction project, not the original software. Stars are a discovery signal, not proof of accuracy or REA involvement; projects are selected for evidence and usefulness, with no minimum star count.
 
 | Label | Meaning |
 | --- | --- |
