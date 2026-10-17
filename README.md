@@ -34,7 +34,6 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 | [zee-rp: making Axure prototype files scriptable](cases/zee-rp.md) [![GitHub stars for LilZeeCN/zee-rp](https://img.shields.io/github/stars/LilZeeCN/zee-rp?style=flat-square&label=stars)](https://github.com/LilZeeCN/zee-rp) | Read and edit supported Axure RP 11 documents through scripts and an MCP interface. | Public project | Working implementation |
 | [Screen Studio: a reported recording-tool rebuild](cases/screen-studio.md) | Investigate a screen-recording application and implement a version from the recovered behavior. | Author report | Partial reconstruction |
 | [MarkText: a reported HTML export reconstruction](cases/marktext-export.md) | Trace and reconstruct HTML export behavior from a built MarkText application. | Author report | In progress |
-
 | [Wispr Flow: a documented local dictation reconstruction](cases/wispr-flow.md) [![GitHub stars for az9713/wispr-flow-rea-teardown](https://img.shields.io/github/stars/az9713/wispr-flow-rea-teardown?style=flat-square&label=stars)](https://github.com/az9713/wispr-flow-rea-teardown) | Investigate dictation and paste behavior, then implement a limited local workflow with published test receipts. | Public project | Partial reconstruction |
 
 ## Games
