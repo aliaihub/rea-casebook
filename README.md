@@ -9,11 +9,11 @@
 From Notion’s clipboard bridge to recovered game logic, independent video editors, and device protocols: explore what people have investigated and built using [REA — Reverse Engineer Anything](https://github.com/morluto/rea).
 
 [![REA](https://img.shields.io/badge/built_with-REA-b7f56b?style=flat-square&labelColor=16232e&color=b7f56b)](https://github.com/morluto/rea)
-[![Cases](https://img.shields.io/badge/cases-12-b7f56b?style=flat-square&labelColor=16232e)](#applications)
+[![Cases](https://img.shields.io/badge/cases-16-b7f56b?style=flat-square&labelColor=16232e)](#applications)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-b7f56b?style=flat-square&labelColor=16232e)](CONTRIBUTING.md)
 [![License MIT](https://img.shields.io/badge/license-MIT-b7f56b?style=flat-square&labelColor=16232e)](LICENSE)
 
-**12 cases · 4 categories · Latest case review October 17, 2026**
+**16 cases · 4 categories · Latest case review October 17, 2026**
 
 [Applications](#applications) · [Games](#games) · [Algorithms](#algorithms) · [Hardware](#hardware) · [Submit a case](CONTRIBUTING.md)
 
@@ -35,6 +35,8 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 | [Screen Studio: a reported recording-tool rebuild](cases/screen-studio.md) | Investigate a screen-recording application and implement a version from the recovered behavior. | Author report | Partial reconstruction |
 | [MarkText: a reported HTML export reconstruction](cases/marktext-export.md) | Trace and reconstruct HTML export behavior from a built MarkText application. | Author report | In progress |
 | [Wispr Flow: a documented local dictation reconstruction](cases/wispr-flow.md) [![GitHub stars for az9713/wispr-flow-rea-teardown](https://img.shields.io/github/stars/az9713/wispr-flow-rea-teardown?style=flat-square&label=stars)](https://github.com/az9713/wispr-flow-rea-teardown) | Investigate dictation and paste behavior, then implement a limited local workflow with published test receipts. | Public project | Partial reconstruction |
+| [Codex exec: a reconstruction experiment with a public test kit](cases/codex-exec-experiment.md) [![GitHub stars for softsweb/codex-clone-hidden-test-kit](https://img.shields.io/github/stars/softsweb/codex-clone-hidden-test-kit?style=flat-square&label=stars)](https://github.com/softsweb/codex-clone-hidden-test-kit) | Study a bounded non-interactive CLI reconstruction using published differential tests and research notes. | Author report with public test artifacts | Partial reconstruction |
+| [Virtual Desktop: implementing a Linux compatibility layer](cases/vd-streamer-linux.md) [![GitHub stars for cudanexus/vd-streamer-linux](https://img.shields.io/github/stars/cudanexus/vd-streamer-linux?style=flat-square&label=stars)](https://github.com/cudanexus/vd-streamer-linux) | Analyze official streamers and replace platform-specific components with a Linux implementation. | Public project | Working implementation |
 
 ## Games
 
@@ -42,6 +44,8 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 | --- | --- | --- | --- |
 | [DX-Ball: recovering positional audio](cases/dx-ball.md) [![GitHub stars for N0zoM1z0/dx-ball](https://img.shields.io/github/stars/N0zoM1z0/dx-ball?style=flat-square&label=stars)](https://github.com/N0zoM1z0/dx-ball) | Recover the position-to-pan calculation in DX-Ball 1.07. | Official documented case | Partial reconstruction |
 | [Touhou TH04: reconstructing bullet-ring angles](cases/th04.md) [![GitHub stars for N0zoM1z0/th04](https://img.shields.io/github/stars/N0zoM1z0/th04?style=flat-square&label=stars)](https://github.com/N0zoM1z0/th04) | Understand the fixed and aimed angle calculation in the PC-98 DOS game Lotus Land Story. | Official documented case | Partial reconstruction |
+| [Warhammer III: save editing informed by native serializers](cases/wh3-save-editor.md) [![GitHub stars for davehornik/WH3SaveEditor](https://img.shields.io/github/stars/davehornik/WH3SaveEditor?style=flat-square&label=stars)](https://github.com/davehornik/WH3SaveEditor) | Recover save-format behavior to fix campaign conversion and support unit creation. | Public project | Working implementation |
+| [Snowball War: reconstructing a DOS minigame in Rust](cases/snowball-war.md) [![GitHub stars for tuunanet/rea-ski-or-die-reconstruction](https://img.shields.io/github/stars/tuunanet/rea-ski-or-die-reconstruction?style=flat-square&label=stars)](https://github.com/tuunanet/rea-ski-or-die-reconstruction) | Recover Ski or Die's Snowball War rules and implement one playable minigame in Rust/SDL2. | Public project | Partial reconstruction |
 
 ## Algorithms
 
@@ -58,12 +62,13 @@ From Notion’s clipboard bridge to recovered game logic, independent video edit
 
 ## Reading the evidence
 
-Star badges show interest in the linked reconstruction project, not the original software. Stars are a discovery signal, not proof of accuracy or REA involvement; projects are selected for evidence and usefulness, with no minimum star count.
+Star badges show interest in the linked implementation or research project, not the original software. Stars are a discovery signal, not proof of accuracy or REA involvement; projects are selected for evidence and usefulness, with no minimum star count.
 
 | Label | Meaning |
 | --- | --- |
 | Official documented case | Published by REA with an investigation or worked example; validation belongs to the source |
 | Public project | Public implementation and documentation; availability does not establish correctness or parity |
+| Author report with public test artifacts | A reported result with inspectable test code or receipts; the implementation may be unavailable and results are not independently reproduced |
 | Author report | A reported result, sometimes discovered through a secondary collection; source-access limitations are stated |
 | Independently reproduced | Reserved for a documented reproduction by a casebook reviewer; no launch entry has this status |
 
